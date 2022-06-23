@@ -61,16 +61,18 @@ const WorkoutProgram = ()=>{
         ))}
       </div>
       <div className="details">
-      <div>
-      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Chest & biceps</a></h1>
-      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Back & Abbs</a></h1>
-      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Shoulder & triceps</a></h1>
-      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">legs</a></h1>
+      <div className="fst7">
+        <h1>FST7</h1>
+      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY" target="_blank">Chest & biceps</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=Pn-_zoLtjh4" target="_blank">Back & Abbs</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=7ROLmk6WSVk" target="_blank">Shoulder & triceps</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=e5_bSRD1L40&t=829s" target="_blank">legs</a></h1>
       </div>
      <div className="pull">
-     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Push</a></h1>
-     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Pull</a></h1>
-     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Legs</a></h1>
+     <h1>Push Pull Legs</h1>
+     <h1><a href="https://www.youtube.com/watch?v=HE45jVN7XKM" target="_blank">Push</a></h1>
+     <h1><a href="https://www.youtube.com/watch?v=IOl42YpK_Es" target="_blank">Pull</a></h1>
+     <h1><a href="https://www.youtube.com/watch?v=Nr0voKyfiiE" target="_blank">Legs</a></h1>
      </div>
      </div>
       </div>
