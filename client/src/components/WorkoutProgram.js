@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-const PlansWorkout = ()=>{
+const WorkoutProgram = ()=>{
     const posts = [
         { id: 0, 
           content: {
@@ -19,29 +19,6 @@ const PlansWorkout = ()=>{
           },
       ]   
 
-        class ButtonBox extends React.Component {
-          constructor(props) {
-            super(props);
-            console.log(props.likeIsClicked);
-            this.state = {
-              likeIsClicked: props.likeIsClicked
-            };
-          }
-          
-          toggle(index) {
-            let state = {};
-            state[index] = !this.state[index];
-            this.setState(state);
-          }
-          
-          render() {
-            return (
-              <div>
-
-              </div>
-            );
-          }  
-        }
         const UiCard = props => {
           let {image, title, content} = props.content;
           return (
@@ -64,9 +41,6 @@ const PlansWorkout = ()=>{
                 <UiCard content={this.props.content}/>
                 <div className='line'></div>
                  <div style={{textAlign: 'right'}}>
-                    <ButtonBox 
-                    likeIsClicked={this.props.likeIsClicked}
-                    likes={this.props.likes}/>
                 </div>
               </div>
              
@@ -77,29 +51,29 @@ const PlansWorkout = ()=>{
 
         
     return(
-        
+        <div>
         <div className='card-grid-view'>
         {posts.map(e => (
           <SocialCard 
             key={e.id}
             content={e.content}
-            likes={e.likes}
-            likeIsClicked={e.likeIsClicked}
             />
         ))}
-
-
-        <div className="details">
-            <ul>
-            <li>chest and biceps</li>
-            <li>abbs and back</li>
-            <li>shoulder and triceps</li>
-            <li>legs</li>
-            </ul>
-        </div>
       </div>
-     
-
+      <div className="details">
+      <div>
+      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Chest & biceps</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Back & Abbs</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Shoulder & triceps</a></h1>
+      <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">legs</a></h1>
+      </div>
+     <div className="pull">
+     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Push</a></h1>
+     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Pull</a></h1>
+     <h1><a href="https://www.youtube.com/watch?v=pZZzyBKH-GY">Legs</a></h1>
+     </div>
+     </div>
+      </div>
     )
 }
-export default PlansWorkout
+export default WorkoutProgram

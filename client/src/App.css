@@ -437,7 +437,6 @@ h1,h2,h3,h4,h5,h6 {
     color: #333;
     margin: 10px;
     cursor: pointer;
-  
     transition: all 0.2s ease-out;
     border: 1px solid #ddd;
   }
@@ -487,4 +486,20 @@ h1,h2,h3,h4,h5,h6 {
 	transition: 0.5s;
 	text-shadow:4px 4px 10px red ;
 
+}
+
+.details div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  min-width: 400px;
+  width: 450px;
+  border-radius: 15px;
+  color: red;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  border: 1px solid #ddd;
+  margin-left: 35%;
+  
 }

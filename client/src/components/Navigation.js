@@ -35,6 +35,8 @@ function Navigation({ setIsAuthenticated, setUser, user}) {
             <Link to="/diets"><MdFoodBank/>Diet</Link>
 
             <Link to="/workouts"><GiWeightLiftingUp/>Workout </Link>
+
+            <Link to="/workoutplans"><RiMiniProgramFill/>Workout Programs</Link>
                 
             <Link to="/champions"><GiStoneWall/>Wall Of Fame</Link>
 
@@ -42,8 +44,7 @@ function Navigation({ setIsAuthenticated, setUser, user}) {
                 
 
             <Link to="/calorieslist"><FcList/>Calories List</Link>
-
-            <Link to="/plansworkout"><RiMiniProgramFill/>Workout Programs</Link>
+    
             
             <button  onClick={logout}>Logout</button>
             

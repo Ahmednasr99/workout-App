@@ -12,7 +12,7 @@ import EditWorkoutForm from './components/EditWorkoutForm';
 import ChampionCard from './components/ChampionsCard';
 import AddChampion from './components/AddChampion';
 import Calculator from './components/Calculator';
-import PlansWorkout from './components/PlansWorkout';
+import WorkoutProgram from './components/WorkoutProgram';
 
 
 function App() {
@@ -67,8 +67,8 @@ function App() {
     <Route exact path="/calculator">
       <Calculator/>
     </Route>
-    <Route exact path="/plansworkout">
-    <PlansWorkout/>
+    <Route exact path="/workoutplans">
+    <WorkoutProgram/>
     </Route>
     </Switch>
     </>
