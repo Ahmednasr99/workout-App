@@ -500,7 +500,23 @@ h1,h2,h3,h4,h5,h6 {
   cursor: pointer;
   transition: all 0.2s ease-out;
   border: 1px solid #ddd;
-  margin-left: 35%;
+  
   
 }
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 25px;
+}
+.iframeWrapper{
+  align-content: center;
+  position: relative;
+}
 
+.iframeWrapper iframe{
+  width: 600px;
+  height: 600px;
+  margin-left: 30%;
+  
+}

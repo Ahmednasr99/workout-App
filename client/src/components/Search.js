@@ -6,8 +6,7 @@ function Search({setChampions , champions, allChampions}) {
       <input
         type="text"
         placeholder="Search your Recent Transactions"
-        onChange={(e) => {
-          
+        onChange={(e) => { 
           if (!e.target.value) return setChampions(allChampions);
           let search = champions.filter((element) => {
             return element.name?.includes(e.target.value)

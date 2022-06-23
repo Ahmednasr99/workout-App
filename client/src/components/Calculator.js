@@ -3,8 +3,8 @@ import Iframe from "react-iframe";
 
 const Calculator = ()=>{
     return(
-        <div>
-            
+        <div className="iframeWrapper">
+            <Iframe src="https://www.calculator.net/calorie-calculator.html"  scrolling="no"/>
         </div>
     )
 }
