@@ -1,7 +1,7 @@
 class MealsController < ApplicationController   
             # Group Activity => Set 'is_admin' to Fire Only Before Create + Destroy Actions
 
-       # before_action :is_authorized only: [:create, :update , :destroy]
+       #before_action :is_authorized only: [:create, :update , :destroy]
 
         # - We only want Admins to have the capability to create / destroy diets
 

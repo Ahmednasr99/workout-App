@@ -22,7 +22,7 @@ const WorkoutProgram = ()=>{
         const UiCard = props => {
           let {image, title, content} = props.content;
           return (
-            <div class="card-wrapper">
+            <div className="card-wrapper">
               <div className='card-img'>
                 <img src={image} alt="" />
               </div>

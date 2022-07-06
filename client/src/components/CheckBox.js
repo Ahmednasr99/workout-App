@@ -42,8 +42,7 @@ const CheckBox = ({element})=>{
     
     return(
         <div>
-            <input title="mark as done" type="checkbox" name="done" id="check" onChange={()=>{handleChange();changeC()}} />
-            
+            <input title="mark as done"  type="checkbox" name="done" id="check" onChange={()=>{handleChange();changeC()}} />
             <label id="label1">{complete?"Done":""}</label>
         </div>
     )

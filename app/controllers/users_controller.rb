@@ -10,7 +10,7 @@ class UsersController < ApplicationController
 
     # GET "/users/:id"
     def show
-        current_user = User.find_by!(id: session[:current_user])
+        #current_user = User.find_by!(id: session[:current_user])
         render json: current_user
     end 
 

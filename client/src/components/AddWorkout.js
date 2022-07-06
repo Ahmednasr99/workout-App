@@ -18,7 +18,7 @@ const AddWorkout = ()=>{
         })
         let res = await req.json()
         console.log(res)
-        /*setForm((prevState) => {return [...prevState, res]})*/
+       setForm((prevState) => {return [...prevState, res]})
         alert("done")
         history.push(`/workouts`)
       }} ><div className="innerForm">
